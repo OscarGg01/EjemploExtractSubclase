@@ -1,5 +1,5 @@
-from Empleado import EmpleadoAdministrativo
-from Empleado import Desarrollador
+from EmpleadoAdministrativo import EmpleadoAdministrativo
+from Desarrollador import Desarrollador
 
 
 def crear_empleado():

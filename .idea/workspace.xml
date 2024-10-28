@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c80aaba6-e439-48a5-8337-28a7960db16a" name="Changes" comment="">
+    <list default="true" id="c80aaba6-e439-48a5-8337-28a7960db16a" name="Changes" comment="Se añadió codigo en main para que el usuario ingrese datos">
+      <change afterPath="$PROJECT_DIR$/Desarrollador.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmpleadoAdministrativo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Empleado.py" beforeDir="false" afterPath="$PROJECT_DIR$/Empleado.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -9,9 +12,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "OscarGg01"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/OscarGg01/EjemploExtractSubclase.git",
+    "accountId": "d641b045-47e2-4ffc-b6cc-70546393b9b0"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
@@ -23,8 +45,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Empleado.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -70,22 +98,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730131894530</updated>
-      <workItem from="1730131895877" duration="2000" />
+      <workItem from="1730131895877" duration="411000" />
     </task>
+    <task id="LOCAL-00001" summary="Se añadió la clase Empleado">
+      <option name="closed" value="true" />
+      <created>1730132005165</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730132005165</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se refactorizó usando extract subclase">
+      <option name="closed" value="true" />
+      <created>1730132100860</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730132100860</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Se añadió codigo en main para que el usuario ingrese datos">
+      <option name="closed" value="true" />
+      <created>1730132213986</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730132213986</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se añadió la clase Empleado" />
+    <MESSAGE value="Se refactorizó usando extract subclase" />
+    <MESSAGE value="Se añadió codigo en main para que el usuario ingrese datos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se añadió codigo en main para que el usuario ingrese datos" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ExtarctSubclase$Empleado.coverage" NAME="Empleado Coverage Results" MODIFIED="1730132052407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ExtarctSubclase$main.coverage" NAME="main Coverage Results" MODIFIED="1730132302205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
