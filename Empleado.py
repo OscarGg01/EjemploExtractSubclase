@@ -1,25 +1,33 @@
 class Empleado:
-    def __init__(self, nombre, salario, habilidades=None):
+    def __init__(self, nombre, salario):
         self.nombre = nombre
         self.salario = salario
-        self.habilidades = habilidades  # Solo para desarrolladores
-        self.tareas_administrativas = []  # Solo para administrativos
-
-    def asignar_tarea_administrativa(self, tarea):
-        if self.tareas_administrativas is not None:
-            self.tareas_administrativas.append(tarea)
-        else:
-            raise ValueError("Este empleado no realiza tareas administrativas")
-
-    def asignar_habilidad(self, habilidad):
-        if self.habilidades is not None:
-            self.habilidades.append(habilidad)
-        else:
-            raise ValueError("Este empleado no es un desarrollador")
 
     def mostrar_info(self):
         print(f"Nombre: {self.nombre}, Salario: {self.salario}")
-        if self.habilidades:
-            print(f"Habilidades: {self.habilidades}")
-        if self.tareas_administrativas:
-            print(f"Tareas Administrativas: {self.tareas_administrativas}")
+
+
+class EmpleadoAdministrativo(Empleado):
+    def __init__(self, nombre, salario):
+        super().__init__(nombre, salario)
+        self.tareas_administrativas = []
+
+    def asignar_tarea_administrativa(self, tarea):
+        self.tareas_administrativas.append(tarea)
+
+    def mostrar_info(self):
+        super().mostrar_info()
+        print(f"Tareas Administrativas: {self.tareas_administrativas}")
+
+
+class Desarrollador(Empleado):
+    def __init__(self, nombre, salario):
+        super().__init__(nombre, salario)
+        self.habilidades = []
+
+    def asignar_habilidad(self, habilidad):
+        self.habilidades.append(habilidad)
+
+    def mostrar_info(self):
+        super().mostrar_info()
+        print(f"Habilidades: {self.habilidades}")
